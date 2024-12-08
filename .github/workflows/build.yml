@@ -40,9 +40,8 @@ jobs:
         run: pnpm run build
 
       - name: Upload production-ready build files
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: github-pages
           path: ./dist # 👈 This is the path to the production-ready build files, change to ./build if it is your case.
 
   # Deploy job
