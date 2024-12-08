@@ -8,7 +8,7 @@ https://purespider.github.io/emoji-printer/?channel=purespider
 
 Additionally you can set these parameters:
 | Parameter  | Default value | Required | Description
-| - | - | - | -
+| --- | --- | --- | ---
 | channel | - | ✅ | Twitch channel name in which to listen for emojis
 | numEmotes | `1` | ❎ | How many emojis per message will be printed
 | stepSize | `100` | ❎ | How far the printer moves with each step
