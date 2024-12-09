@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      container-query-polyfill:
+        specifier: ^1.0.2
+        version: 1.0.2
       emoji-regex:
         specifier: ^10.4.0
         version: 10.4.0
@@ -272,6 +275,9 @@ packages:
   '@types/tmi.js@1.8.6':
     resolution: {integrity: sha512-LVzNK7AxTMyh9qHLanAQR1o0I9XzfbIcXk85cx85igmCJHHO1Sm71sdhQ8Mj1WmRGzynPIoCXx6mVaFynWbsQw==}
 
+  container-query-polyfill@1.0.2:
+    resolution: {integrity: sha512-YjbsYHidpX0vgHRjTXfWV5Sai4EbocVuXuhL/lcVzRKcwlvVhU92yUqZwO6rRjMQMk08unLLBkQhu60u31LCIQ==}
+
   emoji-regex@10.4.0:
     resolution: {integrity: sha512-EC+0oUMY1Rqm4O6LLrgjtYDvcVYTy7chDnM4Q7030tP4Kwj3u/pR6gP9ygnp2CJMK5Gq+9Q2oqmrFJAz01DXjw==}
 
@@ -519,6 +525,8 @@ snapshots:
   '@types/estree@1.0.6': {}
 
   '@types/tmi.js@1.8.6': {}
+
+  container-query-polyfill@1.0.2: {}
 
   emoji-regex@10.4.0: {}
 

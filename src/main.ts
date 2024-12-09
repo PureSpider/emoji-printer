@@ -1,6 +1,8 @@
 import tmi from 'tmi.js';
 import emojiRegex from 'emoji-regex';
 
+import '../node_modules/container-query-polyfill/dist/container-query-polyfill.modern.js';
+
 const appDiv = document.getElementById('app')!;
 const regex = emojiRegex();
 
