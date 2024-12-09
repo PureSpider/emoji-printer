@@ -1,4 +1,3 @@
-import './style.css';
 import tmi from 'tmi.js';
 import emojiRegex from 'emoji-regex';
 
