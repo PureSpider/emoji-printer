@@ -7,9 +7,7 @@ const regex = emojiRegex();
 const params = new URLSearchParams(window.location.search);
 
 if (!params.has('channel')) {
-    const newDiv = document.createElement('div');
-    newDiv.innerText = 'channel not set';
-    document.body.appendChild(newDiv);
+    appDiv.innerText = 'channel not set';
 
     throw new Error('Channel not set!');
 }
